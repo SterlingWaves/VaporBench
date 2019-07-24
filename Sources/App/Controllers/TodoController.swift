@@ -1,4 +1,5 @@
 import Vapor
+import Crypto
 
 /// Controls basic CRUD operations on `Todo`s.
 final class TodoController {
@@ -12,6 +13,10 @@ final class TodoController {
         return try req.content.decode(Todo.self).flatMap { todo in
             return todo.save(on: req)
         }
+    }
+    
+    func greet(_ req: Request) throws -> String {
+        return try req.make(BCryptDigest.self).hash("hello")
     }
 
     /// Deletes a parameterized `Todo`.
