@@ -1,0 +1,10 @@
+<html>
+<body>
+<p>Board Rep - Lite</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultHorizontalBoardNode%402x.png" alt="board rep">
+<p>Board Rep - Square</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultSquareBoardNode%402x.png" alt="board rep">
+<p>Board Rep - Wide</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultWideBoardNode%402x.png" alt="board rep">
+</body>
+</html>
