@@ -32,6 +32,18 @@ public func routes(_ router: Router) throws {
     router.get("person") { req -> Future<View> in
         return try req.view().render("person")
     }
+    
+    router.get("toast") { req -> Future<View> in
+        return try req.view().render("toast")
+    }
+    
+    router.get("closeup") { req -> Future<View> in
+        return try req.view().render("closeup")
+    }
+    
+    router.get("modals") { req -> Future<View> in
+        return try req.view().render("modals")
+    }
 
     // Example of configuring a controller
     let todoController = TodoController()

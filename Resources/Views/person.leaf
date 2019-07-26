@@ -10,12 +10,12 @@
 
 <style>
 body {
-background-color: #FFFFFF;
+background-color: #EEEEEE;
 color: #839496;
 font-family: Lucida Grande, sans-serif;
 font-size: 20px;
 padding: 40px;
-padding-bottom: 0;
+padding-bottom: 200px;
 }
 
 strong {
@@ -129,13 +129,13 @@ padding:20px;
 <a class="nav-link active" href="/person">Person Rep</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/pin">Toast</a>
+<a class="nav-link" href="/toast">Toast</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/pin">Closeup</a>
+<a class="nav-link" href="/closeup">Closeup</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/pin">Modals</a>
+<a class="nav-link" href="/modals">Modals</a>
 </li>
 </ul>
 </div>
@@ -179,8 +179,10 @@ padding:20px;
 
 
 
-
-
+<p />
+<P />
+<p />
+<P />
 </main>
 </div>
 </div>

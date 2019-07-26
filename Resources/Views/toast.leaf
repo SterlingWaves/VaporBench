@@ -99,7 +99,6 @@ bottom:0;
 }
 
 #sidebar { float:left; width:150px; min-height:400px; }
-
 div#fixedfooter {
 position:fixed;
 bottom:0px;
@@ -119,7 +118,7 @@ padding:20px;
 
 <ul class="nav nav-tabs">
 <li class="nav-item">
-<a class="nav-link active" href="/">Board Rep</a>
+<a class="nav-link" href="/">Board Rep</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="/pin">Pin Rep</a>
@@ -128,7 +127,7 @@ padding:20px;
 <a class="nav-link" href="/person">Person Rep</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/toast">Toast</a>
+<a class="nav-link active" href="/toast">Toast</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="/closeup">Closeup</a>
@@ -144,31 +143,13 @@ padding:20px;
 <div class="container">
 <div class="row">
 <div class="col-sm">
-<p>List Item Rep</p>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultHorizontalBoardNode%402x.png" alt="board rep"/>
-</div>
-<div class="w-100"></div>
-<div class="col-sm">
-<p>Square Rep with Avatar</p>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultSquareBoardNode%402x.png" alt="board rep"/>
-</div>
-<div class="w-100"></div>
-<div class="col-sm">
-<p>Wide Rep</p>
-<!--
-<div class = "iphone">Board Rep - Wide
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/dark.png" class="iphone-simulator"/>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultWideBoardNode%402x.png" class="inner"/>
-</div>
- //-->
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultWideBoardNode%402x.png" />
-</div>
-</div>
+<p>Simple Toast With Text Only</p>
+
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIToastNodeSnapshotTest/testBasicToastNodeWithTextAndAction%402x.png" />
 </div>
 
-
-
-
+</div>
+</div>
 
 </main>
 </div>
@@ -178,3 +159,5 @@ padding:20px;
 <div id="fixedfooter">A Makeathon Project</div>
 </body>
 </html>
+
+
