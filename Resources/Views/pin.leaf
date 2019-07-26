@@ -99,7 +99,6 @@ bottom:0;
 }
 
 #sidebar { float:left; width:150px; min-height:400px; }
-
 div#fixedfooter {
 position:fixed;
 bottom:0px;
@@ -119,10 +118,10 @@ padding:20px;
 
 <ul class="nav nav-tabs">
 <li class="nav-item">
-<a class="nav-link active" href="/">Board Rep</a>
+<a class="nav-link" href="/">Board Rep</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/pin">Pin Rep</a>
+<a class="nav-link active" href="/pin">Pin Rep</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="/person">Person Rep</a>
@@ -144,31 +143,36 @@ padding:20px;
 <div class="container">
 <div class="row">
 <div class="col-sm">
-<p>List Item Rep</p>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultHorizontalBoardNode%402x.png" alt="board rep"/>
+<p>Lego Promoted On Specific Recipe</p>
+
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PILegoPinNodeSnapshotTests/testPromotedPinTypesOnRecipeSpecific_Recipe_RecipeSpecific_Promoted%402x.png" />
+</div>
+<div class="col-sm">
+<p>Lego Promoted On Specific Recipe Gif</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PILegoPinNodeSnapshotTests/testPromotedPinTypesOnRecipeSpecific_GIF_RecipeSpecific_Promoted%402x.png" alt="board rep"/>
+</div>
+<div class="col-sm">
+<p>Lego Promoted App Install Ad</p>
+
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PILegoPinNodeSnapshotTests/testPromotedPinTypesOnRelatedPins_AppInstallAd_RelatedPins_Promoted%402x.png" />
+</div>
+<div class="col-sm">
+<p>Lego Promoted Shop the Look</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PILegoPinNodeSnapshotTests/testPromotedPinTypesOnRelatedPins_ShopTheLook_RelatedPins_Promoted%402x.png" alt="board rep"/>
 </div>
 <div class="w-100"></div>
+
 <div class="col-sm">
-<p>Square Rep with Avatar</p>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultSquareBoardNode%402x.png" alt="board rep"/>
+<p>Lego Unfollowed Story Pin on More Ideas</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PILegoPinNodeSnapshotTests/testUnfollowedPinTypesOnMoreIdeas_StoryPin_MoreIdeas_Default%402x.png" alt="board rep"/>
 </div>
-<div class="w-100"></div>
 <div class="col-sm">
-<p>Wide Rep</p>
-<!--
-<div class = "iphone">Board Rep - Wide
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/dark.png" class="iphone-simulator"/>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultWideBoardNode%402x.png" class="inner"/>
-</div>
- //-->
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultWideBoardNode%402x.png" />
-</div>
-</div>
+<p>Lego Followed Pin Compact Profile Video</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PILegoPinNodeSnapshotTests/testFollowedPinTypesOnCompactProfile_Video_CompactProfile_Followed%402x.png" alt="board rep"/>
 </div>
 
-
-
-
+</div>
+</div>
 
 </main>
 </div>
@@ -178,3 +182,4 @@ padding:20px;
 <div id="fixedfooter">A Makeathon Project</div>
 </body>
 </html>
+

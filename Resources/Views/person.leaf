@@ -109,6 +109,7 @@ color:#CCC;
 background:#333;
 padding:20px;
 }
+
 </style>
 
 <title>Snap Dat Snap</title>
@@ -119,13 +120,13 @@ padding:20px;
 
 <ul class="nav nav-tabs">
 <li class="nav-item">
-<a class="nav-link active" href="/">Board Rep</a>
+<a class="nav-link" href="/">Board Rep</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="/pin">Pin Rep</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/person">Person Rep</a>
+<a class="nav-link active" href="/person">Person Rep</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="/pin">Toast</a>
@@ -144,25 +145,35 @@ padding:20px;
 <div class="container">
 <div class="row">
 <div class="col-sm">
-<p>List Item Rep</p>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultHorizontalBoardNode%402x.png" alt="board rep"/>
+<p>Small Horizontal</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIHorizontalPersonNodeSnapshotTests/testSmallHorizontalPersonNode%402x.png" alt="board rep"/>
 </div>
 <div class="w-100"></div>
 <div class="col-sm">
-<p>Square Rep with Avatar</p>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultSquareBoardNode%402x.png" alt="board rep"/>
+<p>Medium Horizontal with Follow Button</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIHorizontalPersonNodeSnapshotTests/testMediumHorizontalPersonNode%402x.png" alt="board rep"/>
 </div>
 <div class="w-100"></div>
 <div class="col-sm">
-<p>Wide Rep</p>
-<!--
-<div class = "iphone">Board Rep - Wide
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/dark.png" class="iphone-simulator"/>
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultWideBoardNode%402x.png" class="inner"/>
+<p>Large Horizontal with Follow Button</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIHorizontalPersonNodeSnapshotTests/testLargeHorizontalPersonNode%402x.png" />
 </div>
- //-->
-<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIBoardNodeSnapshotTest/testDefaultWideBoardNode%402x.png" />
+<div class="w-100"></div>
+<div class="col-sm">
+<p>Small Vertical</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIVerticalPersonNodeSnapshotTests/testSmallVerticalPersonNode%402x.png" alt="board rep"/>
 </div>
+<div class="w-100"></div>
+<div class="col-sm">
+<p>Medium Vertical</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIVerticalPersonNodeSnapshotTests/testMediumVerticalPersonNode%402x.png" alt="board rep"/>
+</div>
+<div class="w-100"></div>
+<div class="col-sm">
+<p>Large Vertical</p>
+<img src="https://snap-ref-images.s3.amazonaws.com/GoldImages.bundle/PIVerticalPersonNodeSnapshotTests/testLargeVerticalPersonNode%402x.png" alt="board rep"/>
+</div>
+<div class="w-100"></div>
 </div>
 </div>
 
@@ -173,8 +184,7 @@ padding:20px;
 </main>
 </div>
 </div>
-<p />
-<P />
 <div id="fixedfooter">A Makeathon Project</div>
 </body>
 </html>
+
